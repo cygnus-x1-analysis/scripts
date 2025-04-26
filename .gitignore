@@ -2,9 +2,7 @@
 lightcurves/
 output/
 products/
-
-# Keep the lightcurves_txt directory
-!lightcurves_txt/
+lightcurves_txt/
 
 # Python related
 __pycache__/
