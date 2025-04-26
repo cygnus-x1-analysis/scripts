@@ -1,0 +1,13 @@
+{
+  "indir_base": "/media/kartikmandar/HDD/Cyg_X1",
+  "outdir_base": "/media/kartikmandar/HDD/Cygnusx1_lightcurves/output",
+  "clobber": "yes",
+  "parallel": "auto",
+  "observations": [
+    "30001011009",
+    "30101022002",
+    "30901039002",
+    "30001011011", 
+    "10014001001"
+  ]
+}
