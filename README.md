@@ -235,3 +235,8 @@ Output data products(lightcurves_txt for now) are available at:
 https://drive.google.com/drive/folders/1ODSKaAjrU3O6vhxu76xJ5b1-5p_nG27B
 
 Not uploading all data, as its over a TeraByte in space. 
+
+
+# How to run spectral fitting automatically
+
+Open `run_spectral_pipeline.py` and change `testfolder` in `BASE_ANALYSIS_DIR = os.path.expanduser("testfolder/")` to wherever your files are located. Inside `testfolder/` or similar, you should have 2 directories where your observations are located: `10014001001_out2_full` and `10014001001_out3_full` for example. These files should contain FPMA and FPMB outputs respectively for `nuproducts` being run. You can also modify the models in `fitter_iterative.py`.
